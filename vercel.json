@@ -1,0 +1,13 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "api/vols.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "env": {
+      "STRIPE_SECRET_KEY": "@STRIPE_SECRET_KEY"
+    }
+  }
+  
